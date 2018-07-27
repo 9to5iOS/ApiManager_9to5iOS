@@ -13,6 +13,7 @@
 		84561664210B201400ABC8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84561663210B201400ABC8DC /* Assets.xcassets */; };
 		84561667210B201500ABC8DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84561665210B201500ABC8DC /* LaunchScreen.storyboard */; };
 		8456166A210B201700ABC8DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84561669210B201700ABC8DC /* main.m */; };
+		84561678210B20D400ABC8DC /* ApiManager_9to5iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 84561677210B20D400ABC8DC /* ApiManager_9to5iOS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		84561666210B201500ABC8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84561668210B201600ABC8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84561669210B201700ABC8DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84561676210B20D400ABC8DC /* ApiManager_9to5iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiManager_9to5iOS.h; sourceTree = "<group>"; };
+		84561677210B20D400ABC8DC /* ApiManager_9to5iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiManager_9to5iOS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				8456165B210B1FE700ABC8DC /* AppDelegate.m */,
 				8456165D210B1FE700ABC8DC /* ViewController.h */,
 				8456165E210B1FE800ABC8DC /* ViewController.m */,
+				84561676210B20D400ABC8DC /* ApiManager_9to5iOS.h */,
+				84561677210B20D400ABC8DC /* ApiManager_9to5iOS.m */,
 				84561660210B1FE800ABC8DC /* Main.storyboard */,
 				84561663210B201400ABC8DC /* Assets.xcassets */,
 				84561665210B201500ABC8DC /* LaunchScreen.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84561678210B20D400ABC8DC /* ApiManager_9to5iOS.m in Sources */,
 				8456165F210B1FE800ABC8DC /* ViewController.m in Sources */,
 				8456166A210B201700ABC8DC /* main.m in Sources */,
 				8456165C210B1FE700ABC8DC /* AppDelegate.m in Sources */,
